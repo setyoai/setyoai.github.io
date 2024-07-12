@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portofolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <nav id="dekstop-nav">
+    <nav id="desktop-nav">
       <div class="logo">Setyo Adi Sasono</div>
       <div>
         <ul class="nav-links">
@@ -29,13 +29,46 @@
           <span></span>
         </div>
         <div class="menu-links">
-            <li><a href="#about" onclick="toogleMenu()">About</a></li>
-            <li><a href="#experiance" onclick="toogleMenu()">Experiance</a></li>
-            <li><a href="#project" onclick="toogleMenu()">Project</a></li>
-            <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toogleMenu()">About</a></li>
+          <li><a href="#experiance" onclick="toogleMenu()">Experiance</a></li>
+          <li><a href="#project" onclick="toogleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="selection_pic-container">
+        <img
+          src="./assets/images/profile-pic.png"
+          alt="setyo adi sasono photo profile"
+        />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Setyo Adi Sasono</h1>
+        <p class="section_text_p2">Android Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('../assets/')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/icon/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon" onclick="location.href('www.linkedin.com/in/setyo-a-4a393b132')"
+          />
+          <img
+            src="./assets/icon/github.png"
+            alt="My Github Profile"
+            class="icon" onclick="location.href('https://github.com/setyo46')"
+          />
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
