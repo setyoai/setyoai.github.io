@@ -23,24 +23,24 @@
     <nav id="hamburger-nav">
       <div class="logo">Setyo Adi Sasono</div>
       <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toogleMenu()">
+        <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toogleMenu()">About</a></li>
-          <li><a href="#experiance" onclick="toogleMenu()">Experiance</a></li>
-          <li><a href="#project" onclick="toogleMenu()">Project</a></li>
-          <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experiance" onclick="toggleMenu()">Experiance</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
-      <div class="selection_pic-container">
+      <div class="section_pic-container">
         <img
           src="./assets/images/profile-pic.png"
-          alt="setyo adi sasono photo profile"
+          alt="setyo adi photo profile"
         />
       </div>
       <div class="section_text">
@@ -48,7 +48,10 @@
         <h1 class="title">Setyo Adi Sasono</h1>
         <p class="section_text_p2">Android Developer</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('../assets/')">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/pdf/Setyo Adi Sasono_CV')"
+          >
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -59,15 +62,70 @@
           <img
             src="./assets/icon/linkedin.png"
             alt="My Linkedin Profile"
-            class="icon" onclick="location.href('www.linkedin.com/in/setyo-a-4a393b132')"
+            class="icon"
+            onclick="location.href('www.linkedin.com/in/setyo-a-4a393b132')"
           />
           <img
             src="./assets/icon/github.png"
             alt="My Github Profile"
-            class="icon" onclick="location.href('https://github.com/setyo46')"
+            class="icon"
+            onclick="location.href('https://github.com/setyo46')"
           />
         </div>
       </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/images/about-pic.png"
+            alt="profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/icon/experience.png"
+                alt="Experiance"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Android Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/icon/education.png"
+                alt="Experiance"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am Setyo Adi Sasono, a recent graduate with a degree in
+              Information Systems. I have a strong interest in Android
+              development. I have hands-on experience in building and deploying
+              Android applications. I am highly motivated, detail-oriented, and
+              constantly strive to learn and adapt to new technology. I want to
+              apply my knowledge and skills in a dynamic and innovative team
+              environment, where I can contribute to impactful projects and grow
+              professionally.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/icon/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <script src="script.js"></script>
   </body>
