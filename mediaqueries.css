@@ -3,13 +3,14 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-containers {
+  .about-containers,
+  .project-containers {
     flex-wrap: wrap;
   }
 
-  #about, #experience {
-    padding-bottom: 4vh;
-    margin-bottom: 3rem;
+  #about,
+  #experience {
+    margin-bottom: 2rem;
   }
 
   #contact,
@@ -58,7 +59,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 30vh;
   }
   #profile {
     height: 83vh;
@@ -68,6 +69,7 @@
     font-size: 1rem;
   }
   .about-containers,
+  .project-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;

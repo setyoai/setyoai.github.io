@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Setyo Adi Sasono</div>
+      <a href="index.html"><div class="logo">Setyo Adi Sasono</div></a>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -51,7 +51,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/pdf/Setyo Adi Sasono_CV')"
+            onclick="window.open('./assets/pdf/Setyo-Adi-Sasono_CV.pdf')"
           >
             Download CV
           </button>
@@ -64,13 +64,13 @@
             src="./assets/icon/linkedin.png"
             alt="My Linkedin Profile"
             class="icon"
-            onclick="location.href('www.linkedin.com/in/setyo-a-4a393b132')"
+            onclick="location.href='https://www.linkedin.com/in/setyoadisasono/'"
           />
           <img
             src="./assets/icon/github.png"
             alt="My Github Profile"
             class="icon"
-            onclick="location.href('https://github.com/setyo46')"
+            onclick="location.href='https://github.com/setyo46'"
           />
         </div>
       </div>
@@ -97,7 +97,9 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree</p>
+              <p>
+                Muria Kudus University<br />Information System, Bachelors Degree
+              </p>
             </div>
           </div>
           <div class="text-container">
@@ -145,7 +147,7 @@
                   alt="icon experience"
                   class="icon"
                 />
-                <h2>Github</h2>
+                <h2>Git</h2>
               </article>
               <article>
                 <img
@@ -153,7 +155,7 @@
                   alt="icon experience"
                   class="icon"
                 />
-                <h2>UX</h2>
+                <h2>UI / UX</h2>
               </article>
             </div>
           </div>
@@ -163,7 +165,7 @@
     <section id="projects">
       <p class="section_text_p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-detail-container">
+      <div class="experience-details-container">
         <div class="project-containers">
           <div class="details-container color-container">
             <div class="article-container">
@@ -174,14 +176,15 @@
               />
             </div>
             <div class="project-title-container">
-              <h2 class="project-title">AksaCarma</h2>
-              <a href="https://github.com/AksaCerma/AksaCarma">
-                <img
-                  src="./assets/icon/github.png"
-                  alt="My Github Profile"
-                  class="icon"
-              /></a>
-            </div>     
+              <a href="https://github.com/AksaCerma/AksaCarma"
+                ><h2 class="project-title">AksaCarma</h2></a
+              >
+              <img
+                src="./assets/icon/github.png"
+                alt="My Github Profile"
+                class="icon contact-icon"
+              />
+            </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
@@ -192,39 +195,41 @@
               />
             </div>
             <div class="project-title-container">
-              <h2 class="project-title">ThesisApp</h2>
-              <a href="https://github.com/AksaCerma/AksaCarma">
-                <img
-                  src="./assets/icon/github.png"
-                  alt="My Github Profile"
-                  class="icon"
-              /></a>
-            </div>    
+              <a href="https://github.com/setyo46/SimilartyTextApp"
+                ><h2 class="project-title">SimilartyText</h2></a
+              >
+              <img
+                src="./assets/icon/github.png"
+                alt="My Github Profile"
+                class="icon contact-icon"
+              />
+            </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
                 src="./assets/images/github.svg"
-                alt="project 2"
+                alt="project 3"
                 class="project-img"
               />
             </div>
             <div class="project-title-container">
-              <h2 class="project-title">Githup User</h2>
-              <a href="https://github.com/AksaCerma/AksaCarma">
-                <img
-                  src="./assets/icon/github.png"
-                  alt="My Github Profile"
-                  class="icon"
-              /></a>
-            </div>    
+              <a href="https://github.com/setyo46/GitHubUser"
+                ><h2 class="project-title">Github User</h2></a
+              >
+              <img
+                src="./assets/icon/github.png"
+                alt="My Github Profile"
+                class="icon contact-icon"
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section id="contact">
       <p class="section_text_p1">Get in Touch</p>
-      <h1 class="title">Contact</h1>
+      <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -232,7 +237,11 @@
             alt="Email Icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="setyoadisasono@gmail.com">setyoadisasono@gmail.com</a></p>
+          <p>
+            <a href="mailto:setyoadisasono@gmail.com"
+              >setyoadisasono@gmail.com</a
+            >
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -241,13 +250,16 @@
             class="icon contact-icon"
           />
           <p>
-            <a href="www.linkedin.com/in/setyo-a-4a393b132"
-              >www.linkedin.com/in/setyo-a-4a393b132</a
+            <a href="https://www.linkedin.com/in/setyoadisasono/"
+              >Setyo Adi Sasono</a
             >
           </p>
         </div>
       </div>
     </section>
+    <footer>
+      <p>Copyright &#169; 2024 Setyo Adi Sasono. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
